@@ -1,0 +1,7 @@
+{
+    "title": "Designing Parent-child-robot Interactions to Facilitate In-Home Parental Math Talk with Young Children",
+    "abstract": "Parent-child interaction is critical for child development, yet parents may need guidance in some aspects of their engagement with their children. Current research on educational math robots focuses on child-robot interactions but falls short of including the parents and integrating the critical role they play in children's learning. We explore how educational robots can be designed to facilitate parent-child conversations, focusing on math talk, a predictor of later math ability in children. We prototyped capabilities for a social robot to support math talk via reading and play activities and conducted an exploratory Wizard-of-Oz in-home study for parent-child interactions facilitated by a robot. Our findings yield insights into how parents were inspired by the robot's prompts, their desired interaction styles and methods for the robot, and how they wanted to include the robot in the activities, leading to guidelines for the design of parent-child-robot interaction in educational contexts.",
+    "date": "2023-05-04",
+    "venue": "Interaction Design and Children",
+    "paperurl": "https://arxiv.org/pdf/2305.02525.pdf"
+}

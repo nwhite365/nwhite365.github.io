@@ -1,0 +1,19 @@
+{
+    "title": "Cobot Programming",
+    "description": "CoFrame is a learning, programming, and simulation environment for collaborative robotics. It’s designed to help visualize many robotics concepts, provide direction for users in their programming, point out issues in created programs, and show the impact of program changes in a simulated environment.",
+    "url": "https://wisc-hci.github.io/CoFrame/",
+    "showcase": {
+      "link": "https://www.youtube.com/embed/8cp1bihmV6o?si=y63RHQtYke4bHrRb",
+      "title": "CoFrame Demo"
+    },
+    "videos": [
+        {
+          "link": "https://www.youtube.com/embed/8cp1bihmV6o?si=y63RHQtYke4bHrRb",
+          "title": "CoFrame Demo"
+        },
+        {
+          "link": "https://www.youtube.com/embed/Ca-A8Q00QcA?si=p5gPUss38-i-2zjQ",
+          "title": "CoFrame Tutorial"
+        }
+    ]
+}

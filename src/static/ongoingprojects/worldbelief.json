@@ -1,0 +1,15 @@
+{
+    "title": "Robot World Beliefs",
+    "description": "We embued a robot with ways in which it views the world in order to color its behavior and allow it to act in manner based on those views. This project seeks to enrich human-robot interaction by giving the robot more human-like behaviors and adding depth to its character - giving it motivations that are rooted in the world and environment around it.",
+    "url": "",
+    "showcase": {
+        "link": "https://www.youtube.com/embed/WGt2nPobw3g?si=AFGbC18pmD-eU-Ln",
+        "title": "Enticing Primal Video"
+    },
+    "videos": [
+        {
+            "link": "https://www.youtube.com/embed/WGt2nPobw3g?si=AFGbC18pmD-eU-Ln",
+            "title": "Enticing Primal Video"
+        }
+    ]
+}

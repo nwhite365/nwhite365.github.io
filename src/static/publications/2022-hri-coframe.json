@@ -1,0 +1,7 @@
+{
+    "title": "CoFrame: A System for Training Novice Cabot Programmers",
+    "abstract": "The introduction of collaborative robots (cobots) into the workplace has presented both opportunities and challenges for those seeking to utilize their functionality. Prior research has shown that despite the capabilities afforded by cobots, there is a disconnect between those capabilities and the applications that they currently are deployed in, partially due to a lack of effective cobot-focused instruction in the field. Experts who work successfully within this collaborative domain could offer insight into the considerations and process they use to more effectively capture this cobot capability. Using an analysis of expert insights in the collaborative interaction design space, we developed a set of Expert Frames based on these insights and integrated these Expert Frames into a new training and programming system that can be used to teach novice operators to think, program, and troubleshoot in ways that experts do. We present our system and case studies that demonstrate how Expert Frames provide novice users with the ability to analyze and learn from complex cobot application scenarios.",
+    "date": "2022-03-07",
+    "venue": "International Conference on Human-Robot Interaction",
+    "paperurl": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9889345"
+}
