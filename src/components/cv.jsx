@@ -3,7 +3,7 @@ import * as React from 'react';
 
 export const CV = () => {
   return (
-    <Card sx={{minWidth: 275, boxShadow: 3}}>
+    <Card sx={{boxShadow: 3}}>
       <CardContent>
         <CardMedia
           component={"iframe"}

@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 
 export const BasicCard = ({header, body, link}) => {
   return (    
-    <Card sx={{minWidth: 275, boxShadow: 3 }}>
+    <Card sx={{boxShadow: 3 }}>
       <CardContent>
         <Typography color="text.secondary" variant='h4' gutterBottom>
           {header}
