@@ -1,0 +1,7 @@
+{
+    "title": "End User Interfaces for Human-Robot Collaboration",
+    "abstract": "Collaborative robots (cobots) are increasingly utilized within the manufacturing industry. However, despite the promise of collaboration and easier programming when compared to traditional industrial robots, cobots introduce new interaction paradigms that require more thought about the environment and distribution of work to fully realize their collaboration capabilities. Due to these additional requirements, cobots have been found to be underutilized for their collaboration capabilities in current manufacturing. Therefore, in order to make cobots more accessible and easy to use, new systems need to be developed that support users during interaction. In this research, we propose a set of tools that target the use of cobots for multiple groups of individuals that use them, in order to better support users and simplify cobot collaboration.",
+    "date": "2024-03-11",
+    "venue": "Companion of the 2024 ACM/IEEE International Conference on Human-Robot Interaction",
+    "paperurl": "https://nathantwhite.com/pioneers2024.pdf"
+}
