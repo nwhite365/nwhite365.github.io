@@ -119,13 +119,15 @@ export default function App() {
               <Item>
                   <BasicCard header={"Publications"} body={"Below is a list of my recent publications"}/>
               </Item>
-              <Grid container spacing={2}>
-                {publicationJsons.map((publication) => {
-                  return (<Grid key={publication.title} item xs={12} sm={12} md={12} lg={6}>
-                    <PubCard {...publication} />
-                  </Grid>)
-                })}
-              </Grid>
+              <Item>
+                <Grid container spacing={2}>
+                  {publicationJsons.map((publication) => {
+                    return (<Grid key={publication.title} item xs={12} sm={12} md={12} lg={6}>
+                      <PubCard {...publication} />
+                    </Grid>)
+                  })}
+                </Grid>
+              </Item>
             </Stack>
           </Box>
         </FadeDiv>
