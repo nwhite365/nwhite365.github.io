@@ -15,7 +15,7 @@ export const Footer = () => {
         <Toolbar disableGutters>
           <Box sx={{ flexGrow: 1, height: "100%"}}>
             <Typography>
-              Designed & Developed by Nathan T White. <FontAwesomeIcon icon={faCopyright}/>  2023 Nathan T White
+              Designed & Developed by Nathan T White. <FontAwesomeIcon icon={faCopyright}/>  2024 Nathan T White
             </Typography>
           </Box>
         </Toolbar>
