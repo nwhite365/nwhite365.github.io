@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ae14a269.css",
-    "main.js": "/static/js/main.86059ba0.js",
+    "main.js": "/static/js/main.f3057a95.js",
     "static/media/pepper_flower.png": "/static/media/pepper_flower.3d8b975298129327ba9e.png",
     "static/media/coframe.jpg": "/static/media/coframe.e70e1cdd3a3c8dad3e8f.jpg",
     "static/media/nate-profile.jpg": "/static/media/nate-profile.3f8498ff077a6c8cc7b3.jpg",
@@ -9,10 +9,10 @@
     "static/media/robolution.jpg": "/static/media/robolution.26210d5bc9791a0f26c5.jpg",
     "index.html": "/index.html",
     "main.ae14a269.css.map": "/static/css/main.ae14a269.css.map",
-    "main.86059ba0.js.map": "/static/js/main.86059ba0.js.map"
+    "main.f3057a95.js.map": "/static/js/main.f3057a95.js.map"
   },
   "entrypoints": [
     "static/css/main.ae14a269.css",
-    "static/js/main.86059ba0.js"
+    "static/js/main.f3057a95.js"
   ]
 }
