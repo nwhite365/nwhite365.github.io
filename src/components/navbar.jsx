@@ -39,7 +39,6 @@ export const Navbar = () => {
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
               fontWeight: 700,
               color: 'inherit',
               textDecoration: 'none',

@@ -8,16 +8,17 @@ import makingdecisions from './static/publications/2024-hri-making-decisions.jso
 import enduserinterfaces from './static/publications/2024-hri-end-user-interfaces.json';
 
 // Ongoing Projects
-import coframejson from './static/ongoingprojects/coframe.json';
+import gpujson from './static/ongoingprojects/gpu.json';
 import planningjson from './static/ongoingprojects/planning.json';
-import remotecollabjson from './static/ongoingprojects/remotecollaboration.json';
 import worldbeliefjson from './static/ongoingprojects/worldbelief.json';
 
 // Past projects
+import remotecollabjson from './static/pastprojects/remotecollaboration.json';
+import coframejson from './static/pastprojects/coframe.json';
 import sciencejson from './static/pastprojects/sciencelearning.json';
 import mathjson from './static/pastprojects/mathlearning.json';
 
 
 export const publicationJsons = [enduserinterfaces, makingdecisions, parentchild, expressions, understanding, coframe, robomath, designing];
-export const ongoingProjects = [coframejson, worldbeliefjson, planningjson, remotecollabjson];
-export const pastProjects = [sciencejson, mathjson];
+export const ongoingProjects = [planningjson, gpujson, worldbeliefjson];
+export const pastProjects = [coframejson, sciencejson, remotecollabjson, mathjson];

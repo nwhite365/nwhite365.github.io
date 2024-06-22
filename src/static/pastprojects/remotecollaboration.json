@@ -2,5 +2,14 @@
     "title": "Remote Collaboration and Training",
     "description": "Periscope is a tool for facilitating remote collaboration, allowing for a remote participant to control a robot that is equipped with a camera in order to adjust the viewing persceptive, allowing for better collaboration on a given task. We are currently investigating the use of interaction paradigm with users and their thoughts of its real-world use.",
     "url": "",
-    "videos": []
+    "showcase": {
+        "link": "https://www.youtube.com/embed/hl-pyCqkGDs?si=odgzbr0zNp7fH1-V",
+        "title": "Periscope"
+    },
+    "videos": [
+        {
+          "link": "https://www.youtube.com/embed/hl-pyCqkGDs?si=odgzbr0zNp7fH1-V",
+          "title": "Periscope"
+        }
+    ]
 }
