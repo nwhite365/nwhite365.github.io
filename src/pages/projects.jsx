@@ -19,8 +19,8 @@ export const ProjectPage = () => {
     <ThemeProvider theme={MyTheme()}>
               <Box
                 sx={{
-                    paddingLeft: "12%",
-                    paddingRight: "12%",
+                    paddingLeft: width < 480 ? "0": "12%",
+                    paddingRight: width < 480 ? "0": "12%",
                 }}
               >
                 <Divider sx={{ paddingTop: 1, marginBottom: 1, borderColor: "grey", borderBottomWidth: 1}} />

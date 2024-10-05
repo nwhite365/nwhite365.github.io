@@ -13,8 +13,11 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { BasicButton } from "../components/basicbutton";
 import { ThemeProvider } from "@emotion/react";
 import { MyTheme, themeProps } from "../theme";
+import useWindowDimensions from "../useWindowDimensions";
 
 export const AboutPage = () => {
+  let { _, width } = useWindowDimensions();
+
   return (
     <ThemeProvider theme={MyTheme()}>
       <Grid
@@ -24,11 +27,11 @@ export const AboutPage = () => {
         container
         spacing={2}
       >
-        <Grid item xs={12} sm={12} md={6} lg={6} sx={{ overflow: "hidden" }}>
+        <Grid item xs={12} sm={12} md={6} lg={6} sx={{ overflow: "hidden", maxHeight: width < 900 ? "50vh" : "100vh" }}>
           <img
             src={profile}
             style={{
-              maxHeight: "100vh",
+              maxHeight: width < 900 ? "75vh" : "100vh",
               marginLeft: "50%",
               transform: `translateX(-50%)`,
             }}
