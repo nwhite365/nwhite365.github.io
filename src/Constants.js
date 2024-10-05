@@ -18,7 +18,15 @@ import coframejson from './static/pastprojects/coframe.json';
 import sciencejson from './static/pastprojects/sciencelearning.json';
 import mathjson from './static/pastprojects/mathlearning.json';
 
+// Teaser images
+import pepper from "./static/images/pepper_flower.png";
+import misty from "./static/images/misty_table.png";
+import coframeImage from "./static/images/coframe.jpg";
+import roboBlocks from "./static/images/robo-blocks.png";
+import allocation from "./static/images/allocation.png";
+import readingRobot from "./static/images/reading-robot.jpg";
 
 export const publicationJsons = [enduserinterfaces, makingdecisions, parentchild, expressions, understanding, coframe, robomath, designing];
 export const ongoingProjects = [planningjson, gpujson, worldbeliefjson];
 export const pastProjects = [coframejson, sciencejson, remotecollabjson, mathjson];
+export const allProjects = [{teaser: allocation, ...planningjson}, {teaser: roboBlocks, ...gpujson}, {teaser: pepper, ...worldbeliefjson}, {teaser: coframeImage, ...coframejson}, {teaser: readingRobot, ...sciencejson}, {teaser: misty, ...mathjson}]

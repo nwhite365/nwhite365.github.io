@@ -4,6 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import { Grid, Stack, CardMedia } from '@mui/material';
 import { BasicButton } from './basicbutton';
+import { themeProps } from '../theme';
 
 export const ProjectCard = ({title, description, url, showcase, videos}) => {
   return (    
@@ -12,7 +13,7 @@ export const ProjectCard = ({title, description, url, showcase, videos}) => {
         <Grid display="flex" justifyContent="center" alignItems="center" container spacing={2} paddingBottom={url ? 2 : 1}>
           <Grid item xs={12} sm={12} md={12} lg={videos && videos.length > 0 ? 12 : 12}>
               <Stack>
-                <Typography color="text.secondary" variant='h4' gutterBottom>
+                <Typography color={themeProps.textColor} variant='h4' gutterBottom>
                   {title}
                 </Typography>
                 <Typography textAlign={"left"} variant="body2">

@@ -1,8 +1,5 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -12,11 +9,11 @@ body {
 }
 
 .MuiTypography-root {
-  cursor: default
+  cursor: default;
 }
 
 .MuiLink-root {
-  cursor: pointer
+  cursor: pointer;
 }
 
 @keyframes gradient {
@@ -29,11 +26,4 @@ body {
   100% {
     background-position: 0% 50%;
   }
-}
-
-
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
