@@ -28,7 +28,6 @@ export const AboutPage = () => {
           <img
             src={profile}
             style={{
-              opacity: 0.8,
               maxHeight: "100vh",
               marginLeft: "50%",
               transform: `translateX(-50%)`,

@@ -36,7 +36,7 @@ export const CVPage = () => {
         >
           CV
         </Typography>
-        <Typography style={{ paddingTop: "5px" }}>
+        <Typography style={{ paddingTop: "5px", color: themeProps.textColor }}>
           Below you'll find a copy of my CV. You can also download a PDF copy{" "}
           <a
             href="https://drive.google.com/file/d/1jhV0qTfqBjlc6qCDj7Q1YFF9z5vNsT3t/view"
