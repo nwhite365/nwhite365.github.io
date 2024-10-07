@@ -83,7 +83,7 @@ export const AboutPage = () => {
             />
 
             <Typography sx={{ color: themeProps.textColor }}>
-              I am a fifth year PhD student, studying Human-Robot Interaction as
+              I am a sixth year PhD student, studying Human-Robot Interaction as
               part of the{" "}
               <a
                 href="https://peopleandrobots.wisc.edu/"
