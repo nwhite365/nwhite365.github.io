@@ -122,22 +122,7 @@ export const AboutPage = () => {
             />
 
             <ResponsiveContent>
-              I am interested in{" "}
-              <strong style={{ color: themeProps.boldTextColor }}>
-                human-robot interaction
-              </strong>{" "}
-              and designing interactions and systems that simplify complexity
-              and enable more users to utilize and interact with robots. My
-              research focuses on methods for{" "}
-              <strong style={{ color: themeProps.boldTextColor }}>
-                supporting user interaction
-              </strong>{" "}
-              with collaborative robots, helping them to create and execute
-              programs and plans for collaboration. The systems I build are
-              designed to support user knowledge and decision making as users
-              determine how to create collaborative interactions between cobots
-              and operators, while ensuring the collaborations are safe and
-              effective.
+              Technology is human-centered, and thus needs to be usable by people. I am passionate about designing systems and technologies that are <strong style={{ color: themeProps.boldTextColor }}>accessible</strong> and <strong style={{ color: themeProps.boldTextColor }}>intuitive</strong> for a wide range of potential users. My work reflects this commitment, as I have built systems and designed interactions that aim to bridge the gap between technical complexity and user accessibility. While my work has focused on human-robot interaction, I have incorporated elements from human-computer interaction, design, and human-behavior literature to create interfaces and interactions that simplify complex tasks, enabling users to engage with advanced technologies more effectively. By building systems that bridge the gap between technical complexity and user accessibility, I aim to make advanced technologies seamlessly integrate into people's daily lives across various domains.
             </ResponsiveContent>
 
             <Divider
