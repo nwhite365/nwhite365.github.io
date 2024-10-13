@@ -18,6 +18,7 @@ import useWindowDimensions from "../useWindowDimensions";
 import { ResponsiveHeader } from "../components/responsiveHeader";
 import { ResponsiveSubHeader } from "../components/responsiveSubHeader";
 import { ResponsiveContent } from "../components/responsiveContent";
+import { Link } from "react-scroll";
 
 export const AboutPage = () => {
   let { _, width } = useWindowDimensions();
@@ -107,7 +108,7 @@ export const AboutPage = () => {
                 style={{ color: themeProps.highlightColor }}
               >
                 Dr. Bilge Mutlu.
-              </a>
+              </a>{" "}
               I completed my MS degree in Computer Science at the University of
               Wisconsin - Madison, and my BS degree in Computer Science at the
               University of Minnesota - Twin Cities.
@@ -168,6 +169,14 @@ export const AboutPage = () => {
                   url={"https://github.com/nwhite365"}
                   icon={<FontAwesomeIcon icon={faGithub} size="xl" />}
                 />
+              </Box>
+              <Box padding={0.5} paddingBottom={0}>
+                
+                <Link to={"cv"} spy={true} smooth={true} duration={500}>
+                  <BasicButton
+                    text={<strong>CV</strong>}
+                  />
+                </Link>
               </Box>
             </Stack>
           </Stack>
