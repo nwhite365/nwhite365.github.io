@@ -25,7 +25,7 @@ export const PubCard = ({title, venue, date, abstract, paperurl}) => {
           justifyContent="center"
           alignItems="center"
           >
-          <BasicButton url={paperurl} text={"Download here"} />
+          <BasicButton url={paperurl} text={"View Paper"} />
         </Box>
       </CardContent>
     </Card>

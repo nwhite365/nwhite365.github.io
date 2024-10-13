@@ -12,9 +12,13 @@ import {
 } from "@mui/material";
 import { themeProps } from "../theme";
 import { hexToRgbA } from "../utils";
+import useWindowDimensions from "../useWindowDimensions";
+import { ResponsiveHeader } from "./responsiveHeader";
+import { ResponsiveContent } from "./responsiveContent";
 
 export const TileCard = ({
   title,
+  abstract,
   teaser,
   description,
   url,
@@ -22,6 +26,8 @@ export const TileCard = ({
   videos,
 }) => {
   const [open, setOpen] = React.useState(false);
+  
+  let { _, width } = useWindowDimensions();
 
   const handleOpenClick = () => {
     setOpen(true);
@@ -30,6 +36,8 @@ export const TileCard = ({
   const handleClose = () => {
     setOpen(false);
   };
+
+  let cardHeight = width < 1400 ? (width < 780 ? "30vh" : "40vh") : "40vh";
 
   return (
     <div>
@@ -51,7 +59,7 @@ export const TileCard = ({
           sx={{
             backgroundColor: "rgba(0, 0, 0, 0.0)",
             boxShadow: "none",
-            height: "40vh",
+            height: cardHeight,
           }}
         >
           <CardContent sx={{ height: "100%" }}>
@@ -78,9 +86,8 @@ export const TileCard = ({
                     "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
                 }}
               >
-                <Typography color={themeProps.textColor} variant="h4">
-                  {title}
-                </Typography>
+                <ResponsiveHeader>{title}</ResponsiveHeader>
+                <ResponsiveContent>{abstract}</ResponsiveContent>
               </Grid>
             </Grid>
           </CardContent>
@@ -109,13 +116,7 @@ export const TileCard = ({
               lg={videos && videos.length > 0 ? 12 : 12}
             >
               <Stack>
-                <Typography
-                  color={themeProps.highlightColor}
-                  variant="h4"
-                  gutterBottom
-                >
-                  {title}
-                </Typography>
+                <ResponsiveHeader useHighlight={true}>{title}</ResponsiveHeader>
                 <Typography
                   textAlign={"left"}
                   variant="body2"

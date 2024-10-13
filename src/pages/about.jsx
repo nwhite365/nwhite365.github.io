@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faGoogleScholar,
+  faLinkedin,
   faResearchgate,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -14,6 +15,9 @@ import { BasicButton } from "../components/basicbutton";
 import { ThemeProvider } from "@emotion/react";
 import { MyTheme, themeProps } from "../theme";
 import useWindowDimensions from "../useWindowDimensions";
+import { ResponsiveHeader } from "../components/responsiveHeader";
+import { ResponsiveSubHeader } from "../components/responsiveSubHeader";
+import { ResponsiveContent } from "../components/responsiveContent";
 
 export const AboutPage = () => {
   let { _, width } = useWindowDimensions();
@@ -45,34 +49,38 @@ export const AboutPage = () => {
         </Grid>
         <Grid item xs={12} sm={12} md={6} lg={6}>
           <Stack sx={{ paddingLeft: "20%", paddingRight: "20%" }}>
-            <Typography
+            <ResponsiveHeader useHighlight={true}>Nathan Thomas White</ResponsiveHeader>
+            {/* <Typography
               component="div"
               variant="h4"
               sx={{ color: themeProps.highlightColor }}
             >
-              Nathan Thomas White
-            </Typography>
-            <Typography
+              
+            </Typography> */}
+            <ResponsiveSubHeader>PhD Candidate</ResponsiveSubHeader>
+            {/* <Typography
               variant="h5"
               component="div"
               sx={{ color: themeProps.textColor }}
             >
               Phd Candidate
-            </Typography>
-            <Typography
+            </Typography> */}
+            <ResponsiveSubHeader>University of Wisconsin - Madison</ResponsiveSubHeader>
+            {/* <Typography
               variant="h5"
               component="div"
               sx={{ color: themeProps.textColor }}
             >
               University of Wisconsin - Madison
-            </Typography>
-            <Typography
+            </Typography> */}
+            <ResponsiveSubHeader useHighlight={true}>Graduating Spring 2025</ResponsiveSubHeader>
+            {/* <Typography
               variant="h6"
               component="div"
               sx={{ color: themeProps.highlightColor, opacity: 1.0 }}
             >
               Graduating Spring 2025
-            </Typography>
+            </Typography> */}
 
             <Divider
               sx={{
@@ -82,7 +90,7 @@ export const AboutPage = () => {
               }}
             />
 
-            <Typography sx={{ color: themeProps.textColor }}>
+            <ResponsiveContent>
               I am a sixth year PhD student, studying Human-Robot Interaction as
               part of the{" "}
               <a
@@ -103,7 +111,7 @@ export const AboutPage = () => {
               I completed my MS degree in Computer Science at the University of
               Wisconsin - Madison, and my BS degree in Computer Science at the
               University of Minnesota - Twin Cities.
-            </Typography>
+            </ResponsiveContent>
 
             <Divider
               sx={{
@@ -113,7 +121,7 @@ export const AboutPage = () => {
               }}
             />
 
-            <Typography sx={{ color: themeProps.textColor }}>
+            <ResponsiveContent>
               I am interested in{" "}
               <strong style={{ color: themeProps.boldTextColor }}>
                 human-robot interaction
@@ -130,7 +138,7 @@ export const AboutPage = () => {
               determine how to create collaborative interactions between cobots
               and operators, while ensuring the collaborations are safe and
               effective.
-            </Typography>
+            </ResponsiveContent>
 
             <Divider
               sx={{
@@ -146,10 +154,16 @@ export const AboutPage = () => {
               useFlexGap
               sx={{ flexWrap: "wrap" }}
             >
+            <Box padding={0.5}>
+              <BasicButton
+                url={"mailto:ntwhite@wisc.edu"}
+                icon={<FontAwesomeIcon icon={faEnvelope} size="xl" />}
+              />
+            </Box>
               <Box padding={0.5}>
                 <BasicButton
-                  url={"mailto:ntwhite@wisc.edu"}
-                  icon={<FontAwesomeIcon icon={faEnvelope} size="xl" />}
+                  url={"https://www.linkedin.com/in/white-nathan-t/"}
+                  icon={<FontAwesomeIcon icon={faLinkedin} size="xl" />}
                 />
               </Box>
               <Box padding={0.5}>

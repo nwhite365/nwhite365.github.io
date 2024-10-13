@@ -1,5 +1,6 @@
 {
     "title": "Robo-Blocks",
+    "abstract": "LLM end-user robot programming",
     "description": "Robo-Blocks is an interface designed to assist users in end-user robot programming through narrative programming. Users engage in narrative creation, goal generation, programing and simulation, and deployment and testing. Using LLMs, we support users as they create a narrative they want a robot to act out, and continue to support users as they create and execute a plan to program the robot.",
     "url": "https://robo-blocks.com",
     "showcase": {

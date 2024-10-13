@@ -1,5 +1,6 @@
 {
     "title": "Early Education Math Learning",
+    "abstract": "Child-robot math learning interactions",
     "description": "We developed robot behaviors that would allow the robot to be prompted or otherwise occassionally autonomously added math-oriented speech and topics into the interaction. We designed the robot and interactions such that it could integrate into natural at-home parent-child interactions, such as playing pretend or reading.",
     "url": "",
     "videos": []
