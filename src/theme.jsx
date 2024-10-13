@@ -12,7 +12,7 @@ export const themeProps = {
   boldTextColor: "#000000",
   highlightColor: "#00ADB5",
   typography: {
-    fontFamily: ["Source Serif 4"],
+    fontFamily: `"Source Sans 3", sans-serif`,
   },
 }
 
