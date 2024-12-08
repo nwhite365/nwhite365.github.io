@@ -15,6 +15,7 @@ import { hexToRgbA } from "../utils";
 import useWindowDimensions from "../useWindowDimensions";
 import { ResponsiveHeader } from "./responsiveHeader";
 import { ResponsiveContent } from "./responsiveContent";
+import { BasicButton } from "./basicbutton";
 
 export const TileCard = ({
   title,
@@ -117,14 +118,10 @@ export const TileCard = ({
             >
               <Stack>
                 <ResponsiveHeader useHighlight={true}>{title}</ResponsiveHeader>
-                <Typography
-                  textAlign={"left"}
-                  variant="body2"
-                  color={themeProps.textColor}
-                >
+                <ResponsiveContent>
                   <strong style={{ color: themeProps.boldTextColor }}>About: </strong>
                   {description}
-                </Typography>
+                </ResponsiveContent>
               </Stack>
             </Grid>
             {showcase && (
@@ -142,17 +139,20 @@ export const TileCard = ({
             )}
           </Grid>
           {url && (
-            <Button
-              href={url}
-              target="_blank"
-              sx={{
-                color: themeProps.primaryColor,
-                backgroundColor: "grey",
-                ":hover": { backgroundColor: themeProps.highlightColor },
-              }}
-            >
-              See the project
-            </Button>
+            <BasicButton
+              url={url}
+              text="See the project"/>
+            // <Button
+            //   href={url}
+            //   target="_blank"
+            //   sx={{
+            //     color: themeProps.primaryColor,
+            //     backgroundColor: "grey",
+            //     ":hover": { backgroundColor: themeProps.highlightColor },
+            //   }}
+            // >
+            //   See the project
+            // </Button>
           )}
         </DialogContent>
       </Dialog>
