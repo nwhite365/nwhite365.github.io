@@ -49,7 +49,7 @@ export const AboutPage = () => {
         /> */}
         </Grid>
         <Grid item xs={12} sm={12} md={6} lg={6}>
-          <Stack sx={{ paddingLeft: "20%", paddingRight: "20%" }}>
+          <Stack sx={{ paddingLeft: {xs: "5%", sm: "15%", md: "10%", lg: "10%", xl: "15%"}, paddingRight: {xs: "5%", sm: "15%", md: "10%", lg: "10%", xl: "15%"} }}>
             <ResponsiveHeader useHighlight={true}>Nathan Thomas White</ResponsiveHeader>
             {/* <Typography
               component="div"

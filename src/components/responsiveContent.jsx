@@ -2,9 +2,9 @@ import * as React from "react";
 import Typography from "@mui/material/Typography";
 import { themeProps } from "../theme";
 
-export const ResponsiveContent = ({children}) => {
+export const ResponsiveContent = ({style, children}) => {
   return (
-    <Typography color={themeProps.textColor} sx={{fontSize: {sm: 14, md: 14, lg: 18, xl: 20}}}>
+    <Typography color={themeProps.textColor} sx={{fontSize: {sm: "1rem", md: "1rem", lg: "1rem", xl: "1.2rem"}, ...style}}>
     {children}
   </Typography>
   );
