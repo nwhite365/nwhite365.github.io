@@ -61,10 +61,6 @@ import Button from "./button.astro";
 </span>
 </a>
 
-{videourl !== "" && <a
-  href={videourl}
-  target='_blank'
->
-  <Button text="View Project Video" />
-</a>}
+{videourl !== "" && 
+  <Button text="View Project Video" link={videourl} />}
 </div>
