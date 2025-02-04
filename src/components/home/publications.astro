@@ -1,0 +1,32 @@
+---
+import publications from "../../collections/publications.json";
+import Publication from "../publication.astro";
+---
+
+<section class="max-w-4xl mx-auto px-7 lg:px-0">
+  <h2
+    class="text-2xl font-bold leading-10 tracking-tight text-neutral-900 dark:text-neutral-100"
+  >
+    My Publications
+  </h2>
+  <p class="mb-6 text-base text-neutral-600 dark:text-neutral-400">
+    Here are some of my recent publication. For a complete list of publications, please check out my <a href="https://scholar.google.com/citations?user=N0G84fwAAAAJ" target="_blank" class="text-blue">Google Scholar</a> page.
+  </p>
+  <div
+    class="grid items-stretch w-full grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-7 mt-7"
+  >
+    {
+      publications.map((project) => {
+        return (
+          <Publication
+            title={project.title}
+            abstract={project.abstract}
+            date={project.date}
+            venue={project.venue}
+            paperurl={project.paperurl}
+          />
+        )
+      })
+    }
+  </div>
+</section>

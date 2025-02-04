@@ -1,0 +1,44 @@
+[
+	{
+		"name": "Allocobot",
+		"description": "Human-Robot Collaboration Planner",
+		"image": "/assets/images/projects/allocation.png",
+		"url": "https://github.com/Wisc-HCI/allocobot",
+		"videourl": ""
+	},
+	{
+		"name": "Robo-Blocks",
+		"description": "LLM Assisted End-User Robot Programming",
+		"image": "/assets/images/projects/robo-blocks.png",
+		"url": "https://robo-blocks.com/",
+		"videourl": "https://www.youtube.com/watch?v=qpr57pWMeOc"
+	},
+	{
+		"name": "Robot World Beliefs",
+		"description": "Creating Consistent Robot Behaviors",
+		"image": "/assets/images/projects/pepper_flower.png",
+		"url": "",
+		"videourl": "https://www.youtube.com/watch?v=WGt2nPobw3g"
+	},
+	{
+		"name": "CoFrame",
+		"description": "Expert-Assisted Collaborative Robot Programming",
+		"image": "/assets/images/projects/coframe.jpg",
+		"url": "https://wisc-hci.github.io/CoFrame/",
+		"videourl": "https://www.youtube.com/watch?v=8cp1bihmV6o"
+	},
+	{
+		"name": "At-Home Learning Companion Robot",
+		"description": "Child-Robot Reading Companion",
+		"image": "/assets/images/projects/reading-robot.jpg",
+		"url": "https://peopleandrobots.wisc.edu/research/designing-learning-companion-robots/",
+		"videourl": ""
+	},
+	{
+		"name": "Early Education Math Learning",
+		"description": "Child-Robot Math Learning Interaction",
+		"image": "/assets/images/projects/misty_table.png",
+		"url": "",
+		"videourl": "https://www.youtube.com/watch?v=Ons3kjGKjWQ"
+	}
+]
