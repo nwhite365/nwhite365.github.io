@@ -1,5 +1,5 @@
 ---
-import Button from "../components/button.astro";
+import CvButton from "../components/cv-button.astro";
 import IconButton from "../components/icon-button.astro";
 import Projects from "../components/home/projects.astro";
 import Publications from "../components/home/publications.astro";
@@ -75,12 +75,12 @@ import Layout from "../layouts/main.astro";
     </div>
 
     <div class="inline-flex items-center space-x-2">
-      <IconButton link="mailto:ntwhite@wisc.edu" logo="/assets/images/logos/email.svg" alt="Email"/>
-      <IconButton link="https://github.com/nwhite365" logo="/assets/images/logos/github.svg" alt="Github"/>
-      <IconButton link="https://www.linkedin.com/in/white-nathan-t/" logo="/assets/images/logos/linkedin.svg" alt="LinkedIn"/>
-      <IconButton link="https://scholar.google.com/citations?user=N0G84fwAAAAJ" logo="/assets/images/logos/googlescholar.svg" alt="Google Scholar"/>
-      <IconButton link="https://www.researchgate.net/profile/Nathan-White-18" logo="/assets/images/logos/researchgate.svg" alt="Research Gate"/>
-      <Button link="https://drive.google.com/file/d/1Fp8XyXQk6Re5hrKr8RrbKu8b_mI2cvn0/view" text="CV" />
+      <IconButton link="mailto:ntwhite@wisc.edu" logo="email" alt="Email"/>
+      <IconButton link="https://github.com/nwhite365" logo="github" alt="Github"/>
+      <IconButton link="https://www.linkedin.com/in/white-nathan-t/" logo="linkedin" alt="LinkedIn"/>
+      <IconButton link="https://scholar.google.com/citations?user=N0G84fwAAAAJ" logo="googlescholar" alt="Google Scholar"/>
+      <IconButton link="https://www.researchgate.net/profile/Nathan-White-18" logo="researchgate" alt="Research Gate"/>
+      <CvButton link="https://drive.google.com/file/d/1Fp8XyXQk6Re5hrKr8RrbKu8b_mI2cvn0/view" text="CV" />
     </div>
     
   </div>

@@ -1,5 +1,6 @@
 ---
 const { link, logo, alt } = Astro.props;
+import { Icon } from 'astro-icon/components'
 ---
 
 <a
@@ -9,6 +10,6 @@ const { link, logo, alt } = Astro.props;
   <button
     class="inline-flex w-auto text-xs font-semibold duration-300 ease-out icon-buttons dark:icon-buttons max-h-16 max-w-16"
   >
-    <img src={logo} alt={alt} class="inline-flex px-2 py-2 text-xs"/>
+    <Icon name={logo} alt={alt} size="2.75rem"/>
   </button>
 </a>
