@@ -15,7 +15,6 @@ export default {
 				},
 				'.dark .icon-buttons': {
 					fill: 'white',
-					filter: 'invert(100%)',
 				},
 				'.dark .icon-buttons:hover': {
 					filter: 'invert(50%)',
