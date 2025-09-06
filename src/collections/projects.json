@@ -8,7 +8,7 @@
 	},
 	{
 		"name": "Robo-Blocks",
-		"description": "LLM Assisted End-User Robot Programming",
+		"description": "LLM Assisted Robot Programming",
 		"image": "/assets/images/projects/robo-blocks.png",
 		"url": "https://robo-blocks.com/",
 		"videourl": "https://www.youtube.com/watch?v=qpr57pWMeOc"
@@ -22,7 +22,7 @@
 	},
 	{
 		"name": "CoFrame",
-		"description": "Expert-Assisted Collaborative Robot Programming",
+		"description": "Expert-Assisted Cobot Programming",
 		"image": "/assets/images/projects/coframe.jpg",
 		"url": "https://wisc-hci.github.io/CoFrame/",
 		"videourl": "https://www.youtube.com/watch?v=8cp1bihmV6o"
